@@ -1,0 +1,33 @@
+1. ≈сли 5 чисел, то метод max будет выгл€деть следующим образом:
+public double max(double dist1, double dist2, double dist3, double dist4, double dist5) {
+		
+	if (dist1 > dist2)
+		maxLen = dist1;
+	else
+		maxLen = dist2;
+		
+	if (maxLen < dist3)
+		maxLen = dist3;
+			
+	if (maxLen < dist4)
+		maxLen = dist4;
+			
+	if (maxLen < dist5)
+		maxLen = dist5;
+	
+	return maxLen;		
+}
+	
+2. ≈сли использовать метод Math.max(a, d), то метод max будет следующим:
+public double max(double dist1, double dist2, double dist3, double dist4, double dist5) {
+		
+	maxLen = Math.max(dist1, dist2);
+    maxLen = Math.max(maxLen, dist3);
+	maxLen = Math.max(maxLen, dist4);
+	maxLen = Math.max(maxLen, dist5);
+	
+	return maxLen;		
+}
+
+3. “.е. как у мен€ (один тестовый класс на все классы Point, Triangle и MaxLength) делать
+не следует?  аждому классу должен соответствовать свой тестовый класс?
