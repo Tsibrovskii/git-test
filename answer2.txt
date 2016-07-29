@@ -1,4 +1,4 @@
-1. Если 5 чисел, то метод max будет выглядеть следующим образом:
+1. Г…Г±Г«ГЁ 5 Г·ГЁГ±ГҐГ«, ГІГ® Г¬ГҐГІГ®Г¤ max ГЎГіГ¤ГҐГІ ГўГ»ГЈГ«ГїГ¤ГҐГІГј Г±Г«ГҐГ¤ГіГѕГ№ГЁГ¬ Г®ГЎГ°Г Г§Г®Г¬:
 public double max(double dist1, double dist2, double dist3, double dist4, double dist5) {
 		
 	if (dist1 > dist2)
@@ -18,7 +18,7 @@ public double max(double dist1, double dist2, double dist3, double dist4, double
 	return maxLen;		
 }
 	
-2. Если использовать метод Math.max(a, d), то метод max будет следующим:
+2. Г…Г±Г«ГЁ ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ ГІГј Г¬ГҐГІГ®Г¤ Math.max(a, d), ГІГ® Г¬ГҐГІГ®Г¤ max ГЎГіГ¤ГҐГІ Г±Г«ГҐГ¤ГіГѕГ№ГЁГ¬:
 public double max(double dist1, double dist2, double dist3, double dist4, double dist5) {
 		
 	maxLen = Math.max(dist1, dist2);
@@ -29,5 +29,5 @@ public double max(double dist1, double dist2, double dist3, double dist4, double
 	return maxLen;		
 }
 
-3. Т.е. как у меня (один тестовый класс на все классы Point, Triangle и MaxLength) делать
-не следует? Каждому классу должен соответствовать свой тестовый класс?
+3. Г’.ГҐ. ГЄГ ГЄ Гі Г¬ГҐГ­Гї (Г®Г¤ГЁГ­ ГІГҐГ±ГІГ®ГўГ»Г© ГЄГ«Г Г±Г± Г­Г  ГўГ±ГҐ ГЄГ«Г Г±Г±Г» Point, Triangle ГЁ MaxLength) Г¤ГҐГ«Г ГІГј
+Г­ГҐ Г±Г«ГҐГ¤ГіГҐГІ? ГЉГ Г¦Г¤Г®Г¬Гі ГЄГ«Г Г±Г±Гі Г¤Г®Г«Г¦ГҐГ­ Г±Г®Г®ГІГўГҐГІГ±ГІГўГ®ГўГ ГІГј Г±ГўГ®Г© ГІГҐГ±ГІГ®ГўГ»Г© ГЄГ«Г Г±Г±?
